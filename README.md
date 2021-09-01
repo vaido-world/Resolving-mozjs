@@ -47,3 +47,8 @@ Compile "MozJS" "31.5.0"
 
 `/js/src/configure` simply launches `/configure.py` with python. 
 
+## polkit 
+```
+echo '\n' | MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
+Compile "Polkit" "0.114"
+```
