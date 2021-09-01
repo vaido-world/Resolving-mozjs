@@ -16,10 +16,10 @@ Trying to compile on an Intel processor is a way to go.
 
 ### Research begins.
 Python is required for the MozJS
-Nano is used to prompt for necessary adjustments to the recipe.
-Suggested observations: Make sure configure is set as build tool. 
-Suggested observations: Make sure dir contains `/js/src`
-if unsure check the: `/Data/Compile/Sources/` for extracted dir and make adjustments accordingly.
+Nano is used to prompt for necessary adjustments to the recipe.  
+Suggested observations: Make sure configure is set as build tool.   
+Suggested observations: Make sure dir contains `/js/src`  
+if unsure check the: `/Data/Compile/Sources/` for extracted dir and make adjustments accordingly.  
 
 ```
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
