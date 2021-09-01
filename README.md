@@ -6,3 +6,6 @@ GoboLinux repository recipe: https://github.com/gobolinux/Recipes/tree/master/Mo
 
 Third party MozJS providers:  
 https://salsa.debian.org/gnome-team/mozjs
+
+polkit 0.114 requirements  
+https://github.com/wingo/polkit/blob/master/NEWS
