@@ -24,13 +24,16 @@ if unsure check the: `/Data/Compile/Sources/` for extracted dir and make adjustm
 ```
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 echo '\n' | MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
-nano /Data/Compile/Recipes/MozJS/59.0a1.0/Recipe
+nano /Data/Compile/Recipes/MozJS/24.2.0/Recipe
 Compile "MozJS" "24.2.0"
 ```
 
 #### Other versions
 ```
-
+InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
+echo '\n' | MakeRecipe "MozJS" "31.5.0" "https://archive.mozilla.org/pub/spidermonkey/releases/31.5.0/mozjs-31.5.0.tar.bz2"
+nano /Data/Compile/Recipes/MozJS/31.5.0/Recipe
+Compile "MozJS" "31.5.0"
 ```
 
 ### configure.py
