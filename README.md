@@ -75,9 +75,22 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GSettings
 # Compile Gcr "3.12.0"
 InstallPackage "https://github.com/vaido-world/Resolving-GVfs/raw/main/Gcr/Gcr--3.12.0--x86_64.tar.bz2"
 
-
+MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 Compile "GVFS" "1.48.1"
 
 
+
+### nano GVfs Recipe
+```
+compile_version=017-GIT
+url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+file_size=1419548
+file_md5=63b79a71337b6b76c6d82b4b136d55e9
+dir='gvfs-master'
+recipe_type=meson
+meson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )
 ```
