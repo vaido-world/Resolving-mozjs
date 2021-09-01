@@ -27,3 +27,13 @@ echo '\n' | MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.
 nano /Data/Compile/Recipes/MozJS/59.0a1.0/Recipe
 Compile "MozJS" "24.2.0"
 ```
+
+#### Other versions
+```
+
+```
+
+### configure.py
+
+`/js/src/configure` simply launches `/configure.py` with python. 
+
