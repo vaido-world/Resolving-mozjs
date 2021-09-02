@@ -95,3 +95,9 @@ meson_variables=(
         "-Dtmpfilesdir=no"
  )
 ```
+
+
+### maybe adding zlib might help
+```
+InstallPackage https://gobolinux.org/packages/016/ZLib--1.2.11-r1--x86_64.tar.bz2
+```
