@@ -174,3 +174,7 @@ PrepareProgram: configure failed.
 Compile: Polkit 0.114 - Configuration failed.
 
 ```
+
+```
+ThirdPartyInstaller "http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_239.3+20190131-1+debian1_amd64.deb"
+```
