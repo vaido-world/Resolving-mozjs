@@ -125,3 +125,20 @@ mozjs-52.pc
 export PKG_CONFIG_PATH=LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig   
 
 ```
+
+
+
+```
+compile_version=017-GIT
+url="http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz"
+file_size=1557340
+file_md5=93ff41874e7df8c62ed9e41893817f04
+dir='polkit-0.114'
+recipe_type=configure
+environment=(
+   export PKG_CONFIG_PATH=/Programs/LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig
+
+)
+
+
+```
