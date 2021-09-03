@@ -227,3 +227,9 @@ make[1]: Leaving directory '/Data/Compile/Sources/polkit-0.114'
 make: *** [Makefile:431: all] Error 2
 Compile: Polkit 0.114 - Build process failed.
 ```
+
+```
+root@LiveCD /usr/lib/x86_64-linux-gnu]ls
+libelogind.so  pkgconfig
+
+```
