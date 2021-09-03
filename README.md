@@ -142,3 +142,35 @@ environment=(
 
 
 ```
+
+
+```
+
+checking for GLIB... yes
+checking for LIBJS... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for XML_ParserCreate in -lexpat... yes
+checking for clearenv... yes
+checking for fdatasync... yes
+checking netgroup.h usability... no
+checking netgroup.h presence... no
+checking for netgroup.h... no
+checking for LIBSYSTEMD... no
+checking for LIBSYSTEMD_LOGIN... no
+checking for LIBELOGIND... no
+configure: error: Package requirements (libelogind) were not met:
+
+No package 'libelogind' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables LIBELOGIND_CFLAGS
+and LIBELOGIND_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+PrepareProgram: configure failed.
+Compile: Polkit 0.114 - Configuration failed.
+
+```
