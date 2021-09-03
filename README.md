@@ -200,3 +200,30 @@ ld: Opened new descriptor 3 for "a.out"
 ```
 ln -s  /Programs/LibElogind-Dev/239.3+20190131_1+debian1/lib/x86_64-linux-gnu/libelogind.so /usr/lib/elogind.so
 ```
+
+
+
+```
+SymlinkProgram /Programs/LibElogind-Dev
+```
+
+
+```
+
+make[3]: Entering directory '/Data/Compile/Sources/polkit-0.114/src/polkit'
+/Programs/Make/4.3/bin/make  all-am
+make[4]: Entering directory '/Data/Compile/Sources/polkit-0.114/src/polkit'
+  CCLD     libpolkit-gobject-1.la
+/usr/bin/ld: error: cannot open /usr/lib/x86_64-linux-gnu/libelogind.so: No such file or directory
+collect2: error: ld returned 1 exit status
+make[4]: *** [Makefile:630: libpolkit-gobject-1.la] Error 1
+make[4]: Leaving directory '/Data/Compile/Sources/polkit-0.114/src/polkit'
+make[3]: *** [Makefile:560: all] Error 2
+make[3]: Leaving directory '/Data/Compile/Sources/polkit-0.114/src/polkit'
+make[2]: *** [Makefile:439: all-recursive] Error 1
+make[2]: Leaving directory '/Data/Compile/Sources/polkit-0.114/src'
+make[1]: *** [Makefile:499: all-recursive] Error 1
+make[1]: Leaving directory '/Data/Compile/Sources/polkit-0.114'
+make: *** [Makefile:431: all] Error 2
+Compile: Polkit 0.114 - Build process failed.
+```
