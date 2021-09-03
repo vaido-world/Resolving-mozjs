@@ -239,3 +239,7 @@ root@LiveCD /usr/lib/x86_64-linux-gnu]pwd
 /usr/lib/x86_64-linux-gnu
 
 ```
+
+```
+ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
+```
