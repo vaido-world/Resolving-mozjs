@@ -184,6 +184,14 @@ ThirdPartyInstaller "http://ftp.us.debian.org/debian/pool/main/e/elogind/libelog
 
 
 ```
+root@LiveCD ~]ld -lelogind --verbose
+                          
+ld: Attempt to open /lib/libelogind.so failed
+ld: Attempt to open /lib/libelogind.a failed
+ld: Attempt to open /usr/lib/libelogind.so failed
+ld: Attempt to open /usr/lib/libelogind.a failed
+ld: error: cannot find -lelogind
+ld: Opened new descriptor 3 for "a.out"
 
 
 ```
