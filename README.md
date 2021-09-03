@@ -247,3 +247,8 @@ ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libp
 ```
 
 https://www.google.com/search?q=policykit&oq=policykit&aqs=chrome..69i57j69i60&sourceid=chrome&ie=UTF-8
+
+
+
+https://launchpad.net/ubuntu/+source/mozjs78
+https://gitlab.freedesktop.org/polkit/polkit/-/blob/master/NEWS
