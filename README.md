@@ -195,3 +195,8 @@ ld: Opened new descriptor 3 for "a.out"
 
 
 ```
+
+
+```
+ln -s  /Programs/LibElogind-Dev/239.3+20190131_1+debian1/lib/x86_64-linux-gnu/libelogind.so /usr/lib/elogind.so
+```
