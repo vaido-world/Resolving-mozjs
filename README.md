@@ -111,3 +111,11 @@ InstallPackage ThirdPartyInstallers --batch
 curl "http://archive.ubuntu.com/ubuntu/pool/main/m/mozjs52/libmozjs-52-dev_52.3.1-7fakesync1_amd64.deb" -O
 ThirdPartyInstaller "libmozjs-52-dev_52.3.1-7fakesync1_amd64.deb"
 ```
+
+
+
+```
+root@LiveCD LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig]ls
+mozjs-52.pc
+
+```
