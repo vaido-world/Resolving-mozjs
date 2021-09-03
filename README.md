@@ -137,9 +137,11 @@ file_md5=93ff41874e7df8c62ed9e41893817f04
 dir='polkit-0.114'
 recipe_type=configure
 environment=(
-   export PKG_CONFIG_PATH=/Programs/LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig
+   export PKG_CONFIG_PATH=/Programs/LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig:/Programs/LibElogind-Dev/239.3+20190131_1+debian1/lib/x86_64-linux-gnu/pkgconfig
 
 )
+
+
 
 
 ```
@@ -178,4 +180,10 @@ Compile: Polkit 0.114 - Configuration failed.
 
 ```
 ThirdPartyInstaller "http://ftp.us.debian.org/debian/pool/main/e/elogind/libelogind-dev_239.3+20190131-1+debian1_amd64.deb"
+```
+
+
+```
+
+
 ```
