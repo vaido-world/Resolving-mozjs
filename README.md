@@ -50,6 +50,7 @@ Compile "MozJS" "31.5.0"
 ## polkit 
 ```
 echo '\n' | MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
+nano /Data/Compile/Recipes/Polkit/0.114/Recipe 
 Compile "Polkit" "0.114"
 ```
 
