@@ -119,3 +119,9 @@ root@LiveCD LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig]ls
 mozjs-52.pc
 
 ```
+
+
+```
+export PKG_CONFIG_PATH=LibMozjs-52-Dev/52.3.1_7fakesync1/lib/x86_64-linux-gnu/pkgconfig   
+
+```
