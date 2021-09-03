@@ -245,3 +245,5 @@ libelogind.so is empty, of 0 bytes when using `l` command in the directory.
 ```
 ThirdPartyInstaller http://ftp.us.debian.org/debian/pool/main/p/policykit-1/libpolkit-gobject-1-dev_0.105-31_amd64.deb
 ```
+
+https://www.google.com/search?q=policykit&oq=policykit&aqs=chrome..69i57j69i60&sourceid=chrome&ie=UTF-8
