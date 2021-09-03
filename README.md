@@ -233,3 +233,9 @@ root@LiveCD /usr/lib/x86_64-linux-gnu]ls
 libelogind.so  pkgconfig
 
 ```
+
+```
+root@LiveCD /usr/lib/x86_64-linux-gnu]pwd
+/usr/lib/x86_64-linux-gnu
+
+```
