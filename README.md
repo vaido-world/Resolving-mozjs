@@ -104,3 +104,10 @@ InstallPackage https://gobolinux.org/packages/016/ZLib--1.2.11-r1--x86_64.tar.bz
 
 Maybe the last time I installed mozjs externally without compiling
 https://ubuntu.pkgs.org/18.04/ubuntu-main-amd64/libmozjs-52-dev_52.3.1-7fakesync1_amd64.deb.html
+
+
+```
+InstallPackage ThirdPartyInstallers --batch
+curl "http://archive.ubuntu.com/ubuntu/pool/main/m/mozjs52/libmozjs-52-dev_52.3.1-7fakesync1_amd64.deb" -O
+ThirdPartyInstaller "libmozjs-52-dev_52.3.1-7fakesync1_amd64.deb"
+```
