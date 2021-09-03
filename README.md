@@ -250,5 +250,7 @@ https://www.google.com/search?q=policykit&oq=policykit&aqs=chrome..69i57j69i60&s
 
 
 
-https://launchpad.net/ubuntu/+source/mozjs78
-https://gitlab.freedesktop.org/polkit/polkit/-/blob/master/NEWS
+https://launchpad.net/ubuntu/+source/mozjs78    
+
+https://gitlab.freedesktop.org/polkit/polkit/-/blob/master/NEWS 
+
