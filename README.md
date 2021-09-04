@@ -5,7 +5,19 @@ Current versions of MozJS https://ftp.mozilla.org/pub/firefox/releases/
 MozJS 52.0 version required by PolKit https://ftp.mozilla.org/pub/firefox/releases/52.0/source/   
  [js.tar.gz](https://github.com/vaido-world/Resolving-mozjs/files/7109752/js.tar.gz)
 
- 
+```
+MakeRecipe https://ftp.mozilla.org/pub/firefox/releases/52.0/source/firefox-52.0.source.tar.xz
+InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
+```
+
+```
+root@LiveCD Compile/Sources/firefox-52.0/js/src]bash configure
+zsh: illegal hardware instruction  bash configure
+root@LiveCD Compile/Sources/firefox-52.0/js/src]bash
+bash-5.0# bash configure
+Illegal instruction
+```
+
  
 https://github.com/mozilla-spidermonkey/spidermonkey-embedding-examples/blob/esr78/docs/Building%20SpiderMonkey.md  
 
