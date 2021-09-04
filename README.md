@@ -7,8 +7,21 @@ MozJS 52.0 version required by PolKit https://ftp.mozilla.org/pub/firefox/releas
 
 ```
 MakeRecipe https://ftp.mozilla.org/pub/firefox/releases/52.0/source/firefox-52.0.source.tar.xz
+nano /Data/Compile/Recipes/Firefox/52.0.source/Recipe 
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 ```
+
+```                     
+compile_version=017-GIT
+url="https://ftp.mozilla.org/pub/firefox/releases/52.0/source/firefox-52.0.so>
+file_size=212356732
+file_md5=76cf84d46590f60f13b0b3dda65d19ae
+recipe_type=configure
+dir="firefox-52.0/js/src"
+
+
+```
+
 
 ```
 root@LiveCD Compile/Sources/firefox-52.0/js/src]bash configure
