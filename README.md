@@ -1,7 +1,8 @@
 # Resolving-mozjs
 
-Official archive of the MozJS (SpiderMonkey)
-https://archive.mozilla.org/pub/spidermonkey/releases/    
+Official archive of the MozJS (SpiderMonkey) https://archive.mozilla.org/pub/spidermonkey/releases/   
+Current versions of MozJS https://ftp.mozilla.org/pub/firefox/releases/
+ 
 https://github.com/mozilla-spidermonkey/spidermonkey-embedding-examples/blob/esr78/docs/Building%20SpiderMonkey.md  
 
 GoboLinux repository recipe: https://github.com/gobolinux/Recipes/tree/master/MozJS
