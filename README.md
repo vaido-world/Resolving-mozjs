@@ -3,7 +3,8 @@
 Official archive of the MozJS (SpiderMonkey) https://archive.mozilla.org/pub/spidermonkey/releases/   
 Current versions of MozJS https://ftp.mozilla.org/pub/firefox/releases/  
 MozJS 52.0 version required by PolKit https://ftp.mozilla.org/pub/firefox/releases/52.0/source/   
- 
+ [js.tar.gz](https://github.com/vaido-world/Resolving-mozjs/files/7109752/js.tar.gz)
+
  
  
 https://github.com/mozilla-spidermonkey/spidermonkey-embedding-examples/blob/esr78/docs/Building%20SpiderMonkey.md  
