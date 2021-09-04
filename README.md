@@ -1,8 +1,8 @@
 # Resolving-mozjs
 
 Official archive of the MozJS (SpiderMonkey) https://archive.mozilla.org/pub/spidermonkey/releases/   
-Current versions of MozJS https://ftp.mozilla.org/pub/firefox/releases/
-MozJS 52.0 version required by PolKit https://ftp.mozilla.org/pub/firefox/releases/52.0/source/ 
+Current versions of MozJS https://ftp.mozilla.org/pub/firefox/releases/  
+MozJS 52.0 version required by PolKit https://ftp.mozilla.org/pub/firefox/releases/52.0/source/   
  
  
  
