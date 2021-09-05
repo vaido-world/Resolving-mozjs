@@ -11,6 +11,7 @@ nano /Data/Compile/Recipes/Firefox/52.0.source/Recipe
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 ```
 
+
 ```                     
 compile_version=017-GIT
 url="https://ftp.mozilla.org/pub/firefox/releases/52.0/source/firefox-52.0.so>
@@ -21,6 +22,39 @@ dir="firefox-52.0/js/src"
 
 
 ```
+
+### Unable to extract, when the recipe was used. Possible lack of RAM memory when in live cd, needs modification of live cd
+### No space left and when tar -xf /Data/Compile/Archives/firefox-52.0.source.tar.xz
+
+```
+device
+tar: firefox-52.0/mozglue/linker/BaseElf.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/tests/run_test_zip.py: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/tests/TestZip.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/tests/test.zip: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/tests/no_central_dir.zip: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/tests/moz.build: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/Logging.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/Zip.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/ElfLoader.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/BaseElf.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/dladdr.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/szip.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/SeekableZStream.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/CustomElf.cpp: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/CustomElf.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/Zip.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/XZStream.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/moz.build: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/linker/Utils.h: Cannot write: No space left on device
+tar: firefox-52.0/mozglue/moz.build: Cannot write: No space left on device
+tar: firefox-52.0/mozilla-config.h.in: Cannot write: No space left on device
+tar: firefox-52.0/old-configure.in: Cannot write: No space left on device
+tar: firefox-52.0/moz.build: Cannot write: No space left on device
+tar: Exiting with failure status due to previous errors
+
+```
+
 
 
 ```
